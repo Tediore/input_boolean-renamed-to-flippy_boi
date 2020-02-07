@@ -1,0 +1,15 @@
+toggle:
+  description: Toggles a flippy boi.
+  fields:
+    entity_id: {description: Entity id of the flippy boi to toggle., example: flippy_boi.notify_alerts}
+turn_off:
+  description: Turns off a flippy boi.
+  fields:
+    entity_id: {description: Entity id of the flippy boi to turn off., example: flippy_boi.notify_alerts}
+turn_on:
+  description: Turns on a flippy boi.
+  fields:
+    entity_id: {description: Entity id of the flippy boi to turn on., example: flippy_boi.notify_alerts}
+reload:
+  description: Reload the flippy_boi configuration.
+
